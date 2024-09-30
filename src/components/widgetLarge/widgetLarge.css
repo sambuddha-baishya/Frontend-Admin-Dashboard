@@ -1,0 +1,59 @@
+.widgetLarge{
+    flex: 2;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    padding: 20px;
+}
+
+.widgetLargeTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.transactionTable{
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.transactionHeader{
+    text-align: left;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.name img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.date, .amount{
+    font-weight: 300;
+}
+
+.widgetLargeButton{
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.widgetLargeButton.Approved{
+    background-color: rgb(170, 236, 170);
+    color: rgb(1, 75, 1);
+}
+
+.widgetLargeButton.Rejected{
+    background-color: rgb(250, 133, 133);
+    color: rgb(94, 2, 2);
+}
+
+.widgetLargeButton.Pending{
+    background-color: rgb(149, 213, 239);
+    color: rgb(2, 2, 87);
+}
